@@ -11,12 +11,31 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 //Auth::routes();
 
+Route::get('/', 'HomeController@index')->name('profile');
+Auth::routes(['verify' => true]);
+
+
+//Create
+
+//Read
+Route::get('/workout', 'ReadController@randomWorkout');
+
+//Update
+
+//Delete
+
+
+
+Auth::routes();
+
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes(['verify' => true]);
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
