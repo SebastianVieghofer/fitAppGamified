@@ -67,7 +67,7 @@
                             <fieldset id="fitnesslevelLabel" style="border:0">
                                 <div class="col-md-6">
                                     <div>
-                                        <input type="radio" name="fitnesslevel" value="0" id="beginner">
+                                        <input type="radio" name="fitnesslevel" value="0" id="beginner" checked>
                                         <label for="beginner">Leicht</label>
                                     </div>
                                     <div>
