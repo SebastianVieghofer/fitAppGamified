@@ -35,7 +35,7 @@
 
     <div style="margin-bottom:50px">
         <div class="ExerciseHeading margingWorkoutInbetween">
-            3: {{$randomLeg->name}}
+            2: {{$randomLeg->name}}
         </div>
         <div class="margingWorkoutInbetween">
             <img src="{{$randomLeg->src}}" class="imageWidth"> 
@@ -47,7 +47,7 @@
 
     <div style="margin-bottom:50px">
         <div class="ExerciseHeading margingWorkoutInbetween">
-            2: {{$randomPull->name}}
+            3: {{$randomPull->name}}
         </div>
         <div class="margingWorkoutInbetween">
             <img src="{{$randomPull->src}}" class="imageWidth"> 
